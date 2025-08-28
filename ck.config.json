@@ -1,0 +1,31 @@
+{
+  "srcDir": "src",
+  "confidence": 0.9,
+  "ttlDays": 90,
+  "ignorePatterns": [
+    "**/*.d.ts",
+    "**/*.types.ts",
+    "**/*.stories.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/__mocks__/**",
+    "**/*.config.ts",
+    "**/*.config.js",
+    "**/generated/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/node_modules/**"
+  ],
+  "entrypoints": [
+    "src/index.ts",
+    "src/index.tsx",
+    "src/main.ts",
+    "src/main.tsx",
+    "src/app.tsx",
+    "src/App.tsx"
+  ],
+  "safeDelete": true,
+  "backupBeforeDelete": true
+}
